@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Job Application</h2>
+    <br>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name">
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone"><br>
+
+        <label for="resume">Resume:</label><br>
+        <input type="file" name="resume" id="resume">
+
+        <label for="exp">Experience(years):</label><br>
+        <input type="number" name="exp" id="exp" min="0" max="50">
+
+        <fieldset>
+            <legend>Skills:</legend>
+
+            <input type="checkbox" name="Html" id="Html"><br>
+            <label for="Html">Html</label><br>
+
+            <input type="checkbox" name="css" id="css"><br>
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" name="java" id="java"><br>
+            <label for="java">javaScript</label><br>
+        </fieldset>
+
+        <label for="edu">Highest Education</label><br>
+        <select name="edu" id="edu">
+            <option value="school">High School</option>
+            <option value="college">Collge</option>
+            <option value="university">Univercity</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Availability:</legend>
+            <input type="radio" name="radio" id="full"><br>
+            <label for="full">Full-time</label><br>
+            <input type="radio" name="radio" id="part"><br>
+            <label for="part">Part-time</label><br>
+        </fieldset>
+        <label for="comments">Additional comments</label><br>
+        <textarea name="comments" id="comments" rows="3" cols="20"></textarea><br><br>
+
+
+        <section>
+            <details>
+                <summary>how much salary you want</summary>
+                <p>rs.250000</p>
+            </details>
+        </section>
+        <br>
+        <input type="button" value="Submit"><br><br>
+
+    <img src="https://th.bing.com/th/id/OIP.5WT5IbSDoDZj-jaYk5Cu2QHaHa?rs=1&pid=ImgDetMain" alt="image" width="200px" loading="lazy">
+
+
+    </form>
+
+</body>
+
+</html>

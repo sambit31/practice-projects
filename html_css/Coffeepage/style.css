@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+html,body{
+    background-color: aliceblue;
+     
+}
+header{
+    
+}
+
+#heading{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#navi{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(183, 183, 183);
+    word-spacing: 20px;
+    border-color: #333;
+}
+
+#navi a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar{
+    line-height: 30px;
+    padding: 20px;
+    background-color: #eaeaea;
+    width: 200px;
+    font-size: small;
+}
+
+.sidebar h2{
+    padding-bottom: 20px;  
+}
+
+.sidebar-menu{
+    list-style: none;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #333;
+}
+  
+.sidebar-menu li a{
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+}
+
+#parent{
+display: flex;
+gap: 20px;
+padding: 20px;
+justify-content: center;
+}
+
+#box1{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    background-image: url('https://www.adorama.com/alc/wp-content/uploads/2023/05/fahmi-fakhrudin-nzyzAUsbV0M-unsplash-825x465.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(90, 59, 167);
+    background-image: url('https://t3.ftcdn.net/jpg/06/80/83/50/360_F_680835003_DrrStQKpVBczctalKRV6pcdbDByjTMK4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box3{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(35, 185, 38);
+    background-image: url('https://media.istockphoto.com/id/1007194468/photo/people-drinking-coffee-high-angle-view.jpg?s=612x612&w=0&k=20&c=dIdvLUd5X_QB1Zjf0noSuno0OpZqyIN4uhzL0mLi-u8=');
+    background-position: center;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    line-height: 30px;
+}
+
+#content{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#points li{
+    margin-left: 50px;
+    line-height: 20px;  
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color:#333;
+    color:  #ffffff;
+}
