@@ -25,3 +25,6 @@ var school={
 
 
 console.log(school.id)
+
+
+
