@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Finder</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center font-sans">
+  <div class="w-full max-w-3xl p-6">
+    <!-- Header -->
+    <h1 class="text-3xl font-bold text-center text-gray-900 mb-8">GitHub User Finder</h1>
+    
+    <!-- Search Box -->
+    <div class="flex flex-col sm:flex-row gap-2 mb-10">
+      <input 
+        type="text" 
+        placeholder="Enter GitHub username..." 
+        class="username flex-1 px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none text-gray-800 shadow-sm"
+      />
+      <button 
+        type="button"
+        class="search flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-xl shadow hover:bg-blue-700 transition"
+      >
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M21 21l-4.35-4.35M11 18a7 7 0 100-14 7 7 0 000 14z" />
+        </svg>
+        Search
+      </button>
+    </div>
+     <!-- Permanent Placeholder for Profile -->
+    <div class="profile"></div>
+
+
+
+    <div class="max-w-5xl mx-auto mt-10">
+  <h2 class="text-2xl font-semibold text-gray-800 mb-6">Repositories</h2>
+  <div class="card grid gap-6 md:grid-cols-2">
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
